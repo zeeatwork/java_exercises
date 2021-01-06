@@ -60,7 +60,7 @@ public class PasswordValidator {
 
     public static boolean containsUppercaseCharacter(String newPassword){
         short uppercaseCharacterCount = 0;
-        for (int i = 0; i <= newPassword.length(); i++){
+        for (int i = 0; i < newPassword.length(); i++){
             if (Character.isUpperCase(newPassword.charAt(i))){
                 uppercaseCharacterCount++;
             }
@@ -70,7 +70,7 @@ public class PasswordValidator {
 
     public static boolean containsLowercaseCharacter(String newPassword){
         short lowercaseCharacterCount = 0;
-        for (int i = 0; i <= newPassword.length(); i++){
+        for (int i = 0; i < newPassword.length(); i++){
             if (Character.isLowerCase(newPassword.charAt(i))){
                 lowercaseCharacterCount++;
             }

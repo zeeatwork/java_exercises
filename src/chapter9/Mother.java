@@ -1,2 +1,6 @@
-package chapter9;public class Mother {
+package chapter9;
+
+public class Mother extends Woman{
+
+
 }
