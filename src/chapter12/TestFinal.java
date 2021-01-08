@@ -27,7 +27,10 @@ getFinalTestScores();
             }
         }
         //print updated grades
-        System.out.println(grades1);
+        System.out.println("======== FINAL GRADES ========");
+        grades1.forEach(
+                (student,score)-> System.out.println("Student: " + student + " , Grade: " + score)
+        );
     }
 
 }
